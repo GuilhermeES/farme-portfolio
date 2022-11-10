@@ -181,10 +181,10 @@
             position: absolute;
             width: 100%;
             z-index: 99;
-            height: 100vh;
             background: rgb(0 0 0 / 70%);
             left: 0;
             bottom: 0;
+            top: 0;
         }
 
         &__menu{
@@ -196,7 +196,7 @@
             position: absolute;
             left: 30px;
             right: 30px;
-            top: 10%;
+            top: 100px;
             z-index: 100;
         }
 
