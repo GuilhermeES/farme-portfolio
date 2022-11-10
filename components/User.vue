@@ -7,12 +7,17 @@
     </div>
 </template>
 
-<style scoped lang="scss">
+<style lang="scss">
     .user{
-        display: flex; 
+        display: flex;
         align-items: center;
-        padding-top: 70px;
+        padding-top: 50px;
         gap: 40px;
-        width: 55%;
+        width: 70%;
+    }
+    @media(max-width:996px) {
+        .user{
+            width: 100%;
+        }
     }
 </style>

@@ -43,7 +43,7 @@
     .text {
       padding-top: 20px;
       padding-bottom: 20px;
-      width: 40%;
+      width: 54%;
     }
   }
 

@@ -28,7 +28,7 @@
 
 <style scoped lang="scss">
   .text {
-    width: 65%;
+    width: 88%;
     padding-bottom: 20px;
   }
 

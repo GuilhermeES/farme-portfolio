@@ -62,6 +62,7 @@
                 Motion Graphics
               </div>
               <img src="~/assets/img/Figma.png" alt="Figma" class="projects__tols" />
+              <img src="~/assets/img/after.png" alt="Figma" class="projects__tols" />
             </div>
           </a>
         </div>
@@ -77,7 +78,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
-    width: 70%;
+    width: 100%;
     padding-top: 32px;
 
     &__item{
@@ -113,6 +114,8 @@
     .projects{
       width: 100%;
       gap: 20px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
       justify-content: center;
     }
   }

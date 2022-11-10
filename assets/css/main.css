@@ -1,8 +1,9 @@
 body, html {
   margin: 0;
-  overflow-x: hidden;
 }
-
+li{
+  list-style: none;
+}
 :root {
   --main: #23FFB0;
   --secondary: #7345FF;
@@ -13,14 +14,13 @@ body, html {
 }
 
 .content {
-  max-width: 1200px;
+  max-width: 900px;
   padding-top: 10rem;
   margin: 0 auto;
   padding-bottom: 10rem;
   background-image: url('../img/layer.png');
   background-repeat: no-repeat;
 }
-
 
 .btn {
   font-size: 20px;
@@ -66,14 +66,6 @@ body, html {
   color: var(--text);
   font-weight: 300;
   font-size: 20px;
-}
-
-.user {
-  display: flex;
-  align-items: center;
-  padding-top: 50px;
-  gap: 40px;
-  width: 55%;
 }
 
 .fade-enter-active,
