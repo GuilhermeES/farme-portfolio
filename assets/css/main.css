@@ -55,6 +55,14 @@ li{
     position: absolute;
 }
 
+.user{
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+  gap: 40px;
+  width: 70%;
+}
+
 .title {
   font-family: var(--font);
   font-weight: 700;
