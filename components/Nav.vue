@@ -217,7 +217,7 @@
         &__farme{
             text-align: center;
             position: relative;
-            bottom: 30px;
+            bottom: 55px;
         }
 
         &__navigation{

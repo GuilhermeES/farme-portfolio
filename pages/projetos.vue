@@ -11,6 +11,17 @@
       </div>
       <div class="projects">
         <div class="projects__item">
+          <a href="https://www.behance.net/gallery/156922421/App-ajudeme" target="_blank">
+            <img src="~/assets/img/ajudeme.png" alt="ajude.me" />
+            <div class="projects__info">
+              <div class="projects__name">
+                ajude.me
+              </div>
+              <img src="~/assets/img/Figma.png" alt="Figma" class="projects__tols" />
+            </div>
+          </a>
+        </div>
+        <div class="projects__item">
           <a href="https://www.behance.net/gallery/147955887/Redesign-Orkut" target="_blank">
             <img src="~/assets/img/redesign_orkut.png" alt="Redesign Orkut" />
             <div class="projects__info">
@@ -87,12 +98,16 @@
       border: 2px solid #000000;
       box-shadow: 3px 3px 0px #000000;
       border-radius: 9px;
+      transition: .2s;
       a{
         text-decoration: none;
       }
       img{
         border-top-left-radius: 9px;
         border-top-right-radius: 9px;
+      }
+      &:hover{
+        box-shadow: 6px 6px 0px #000000;
       }
     }
 
